@@ -251,7 +251,7 @@ async function runPython(
       additionalPackagesToInstall,
       (event_type: string, data: string) => {
         if (event_type === "failed") {
-          installErrors.push(data)
+          // installErrors.push(data)
         }
       }
     );
